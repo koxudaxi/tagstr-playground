@@ -36,7 +36,7 @@ jobs:
       run: poetry install --no-interaction
     - name: Build the JupyterLite site
       run: |
-        jupyter lite build --contents content --output-dir dist
+        poetry run jupyter lite build --contents content --output-dir dist
     - name: Copy pyodide to dist
       run: |
         cp -r ./pyodide dist/pyodide
