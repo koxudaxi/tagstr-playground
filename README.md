@@ -1,3 +1,5 @@
+# The project was merged into [pauleveritt/tagstr-site](https://github.com/pauleveritt/tagstr-site/tree/main/playground)
+
 The Project provides playground for tagged strings feature of Python 3.12.0a7. (the branch is [tag-strings-v2](https://github.com/gvanrossum/cpython/tree/tag-strings-v2))
 
 ## Try tagged strings on jupyterlite (no installation needed)
